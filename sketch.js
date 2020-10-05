@@ -29,15 +29,12 @@ function setup() {
 
 	rectangleSprite1 = createSprite(width/2, 200, 20, 100);
 	rectangleSprite1.shapeColor = "red";
-	rectangleSprite1.debug = true;
 
 	rectangleSprite2 = createSprite(width/2, 200, 200, 20);
 	rectangleSprite2.shapeColor = "red";
-	rectangleSprite2.debug = true;
 
 	rectangleSprite3 = createSprite(width/2, 200, 20, 100);
 	rectangleSprite3.shapeColor = "red";
-	rectangleSprite3.debug = true;
 
 	engine = Engine.create();
 	world = engine.world;
